@@ -37,5 +37,10 @@ git reset (--mixed)          #  保留     覆盖
 git branch _name       # 创建分支
 git checkout _name     # 切换分支
 git checkout -b _name  # both
+git branch -d _name    # 删除分支
 ```
 
+```bash
+git push origin -d _name           # 删除远程分支
+git pull origin _name1:_name2      # 拉取_name1合并到_name2(默认_name1)
+```
