@@ -27,5 +27,9 @@ git log --oneline
 
 ```bash
 # git 回退版本  (从版本库回退)
+                             #  工作区   暂存区       版本库
+git reset --soft _version    #  保留     覆盖    <-  _version
+git reset --hard             #  覆盖     覆盖
+git reset (--mixed)          #  保留     覆盖
 ```
 
