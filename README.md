@@ -34,7 +34,8 @@ git reset (--mixed)          #  保留     覆盖
 ```
 
 ```bash
-git branch _name    # 创建分支
-git checkout _name  # 切换分支
+git branch _name       # 创建分支
+git checkout _name     # 切换分支
+git checkout -b _name  # both
 ```
 
