@@ -5,7 +5,7 @@ git ls-files  # 查看暂存区文件
 ```bash
 git status
 
-git status -s 
+git status -s
 
 # 第一列表示暂存区状态，第二列表示工作区抓那个太
 U:  untrack   #  未跟踪的新文件
@@ -31,5 +31,10 @@ git log --oneline
 git reset --soft _version    #  保留     覆盖    <-  _version
 git reset --hard             #  覆盖     覆盖
 git reset (--mixed)          #  保留     覆盖
+```
+
+```bash
+git branch _name    # 创建分支
+git checkout _name  # 切换分支
 ```
 
